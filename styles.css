@@ -1,0 +1,40 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1f 1f;
+    gap: 10vw;
+}
+div {
+    height: 40vh;
+    width: 40vw;
+}
+.box1 {
+    height: 40vh;
+    width: 40vw;
+    background:linear-gradient(45deg, red,purple);
+}
+.box2 {
+    
+    background: radial-gradient(ellipse at top, #e66465 40%,cyan, transparent);
+    
+}
+.box3 {
+    background: repeating-linear-gradient(-45deg,
+    red,
+    red 10px,
+    cyan 10px,
+    cyan 20px
+    );
+    background-repeat: no-repeat;
+}
+.box4 {
+    background: repeating-radial-gradient( pink, pink 10px, black 10px, black 20px);
+}
+.box5 {
+    background: radial-gradient(#212121 20px, transparent 20px), radial-gradient(white 20px, transparent 20px);
+    background-color: #e53935;
+    background-position: 0 0, 50px 50px;
+    background-size: 100px 100px;
+    
+    
+}
